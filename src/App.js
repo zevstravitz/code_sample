@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Panels from './components/Panels.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+class App extends Component {
+  state = {
+    panels: [
+      {
+        title: 'Monsoon III',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        image: 'https://i.vimeocdn.com/video/590587169_530x315.jpg',
+        imagefirst: true 
+      },
+      {
+        title: 'Beems',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        image: 'https://i.vimeocdn.com/video/589972810_530x315.jpg',
+        imagefirst: true 
+      },
+      {
+        title: 'Move 2',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        image: 'https://i.vimeocdn.com/video/595198868_505x160.jpg',
+        imagefirst: true 
+      },
+    ],
+  }
+
+  render () {
+    return (
+      <div className="App">
+        <div className="App-panel">
+          <div className="App-section1">
+            <Panels></Panels>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;

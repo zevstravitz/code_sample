@@ -1,0 +1,65 @@
+body {
+  background: white;
+}
+
+.Panel-1, .Panel-2, .Panel-3 {
+  width: 80%;
+  display: inline-block;
+}
+
+.Panel-1 {
+  margin: 10% 10% 10% 10%;
+}
+
+.Panel-2 {
+  margin: 10% 10% 2% 10%;
+}
+
+.Panel-3 {
+  margin: 2% 10% 10% 10%;
+}
+
+
+.left-sides {
+  width: 39%;
+  padding-right: 1%;
+  float: left;
+}
+
+.right-sides {
+  width: 39%;
+  padding-right: 1%;
+  float: right;
+}
+
+.App-section2 {
+  background: linear-gradient(#111, #999);
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .left-sides {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  .image {
+    text-align: center;
+    margin: 3em 0em;
+  }
+  
+  .right-sides {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  .Panel-1, .Panel-2, .Panel-3 {
+    margin-left: 10%;
+  }
+
+
+  
+}
+
