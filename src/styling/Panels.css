@@ -8,28 +8,28 @@ body {
 }
 
 .Panel-1 {
-  margin: 10% 10% 10% 10%;
+  margin: 10% 0%;
 }
 
 .Panel-2 {
-  margin: 10% 10% 2% 10%;
+  margin: 10% 0% 2% 0%;
 }
 
 .Panel-3 {
-  margin: 2% 10% 10% 10%;
+  margin: 2% 0% 10% 0%;
 }
 
 
 .left-sides {
-  width: 39%;
-  padding-right: 1%;
+  width: 40%;
   float: left;
+  margin-left: 10%;
 }
 
 .right-sides {
-  width: 39%;
-  padding-right: 1%;
+  width: 40%;
   float: right;
+  margin-left: 10%;
 }
 
 .App-section2 {
@@ -58,8 +58,5 @@ body {
   .Panel-1, .Panel-2, .Panel-3 {
     margin-left: 10%;
   }
-
-
-  
 }
 

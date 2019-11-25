@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Panels from './components/Panels.js';
-
+import MyCarousel from './components/MyCarousel.js';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -38,6 +38,9 @@ class App extends Component {
           <div className="App-section1">
             <Panels></Panels>
           </div>
+        </div>
+        <div className="App-carousel">
+          <MyCarousel></MyCarousel>
         </div>
       </div>
     );
