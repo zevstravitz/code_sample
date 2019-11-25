@@ -1,0 +1,9 @@
+.App-Carousel {
+  width: 100%;
+}
+
+.Carousel-image {
+  width: 300%;
+  height: 50em;
+  filter: blur(25px);
+}

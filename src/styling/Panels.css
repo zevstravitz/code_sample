@@ -12,24 +12,27 @@ body {
 }
 
 .Panel-2 {
-  margin: 10% 0% 2% 0%;
+  margin-top: 10%;
+  margin-bottom: 2%;
 }
 
 .Panel-3 {
-  margin: 2% 0% 10% 0%;
+  margin-top: 2%;
+  margin-bottom: 10%;
 }
 
 
 .left-sides {
-  width: 40%;
+  width: 35%;
   float: left;
   margin-left: 10%;
+  margin-right: 60px;
 }
 
 .right-sides {
-  width: 40%;
+  width: 35%;
   float: right;
-  margin-left: 10%;
+  margin-left: 60px;
 }
 
 .App-section2 {
@@ -37,11 +40,12 @@ body {
   color: white;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
   .left-sides {
     float: none;
     width: 100%;
     padding: 0;
+    margin: 5px;
   }
 
   .image {
@@ -53,6 +57,7 @@ body {
     float: none;
     width: 100%;
     padding: 0;
+    margin: 5px;
   }
 
   .Panel-1, .Panel-2, .Panel-3 {
@@ -60,3 +65,15 @@ body {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  img {
+    width: 95%;
+    margin: 0;
+  }
+
+  .left-sides, .right-sides {
+    float: none;
+    margin: 0;
+    width: 95% !important;
+  }
+}
