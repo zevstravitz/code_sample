@@ -35,6 +35,10 @@ body {
   margin-left: 60px;
 }
 
+.App-section1 {
+  height: 50%;
+}
+
 .App-section2 {
   background: linear-gradient(#111, #999);
   color: white;
