@@ -25,7 +25,7 @@ class MyCarousel extends Component {
         color: "#3e6aa7"
       },
       {
-        title: 'Hunt for the WildPeople',
+        title: 'Hunt for the WilderPeople',
         text: 'Raised on hip-hop and foster care, defiant city kid Ricky gets a fresh start in the New Zealand countryside. From the director of What We Do In The Shadows.',
         image: hunt,
         color: "#3a56b5"
