@@ -5,6 +5,8 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import '../styling/MyCarousel.css';
 
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+
 
 // standard images
 import hunt from '../images/hunt.jpg';
