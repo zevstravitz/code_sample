@@ -5,6 +5,8 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import '../styling/MyCarousel.css';
 
+
+// standard images
 import hunt from '../images/hunt.jpg';
 import nichts from '../images/nichts.jpg';
 import viceversa from '../images/viceversa.png';
@@ -50,10 +52,10 @@ class MyCarousel extends Component {
   render() {
     return (
       <div className="App-Carousel">
-        <Carousel className="carousel-body" indicators={ false }>
+        <Carousel className="carousel-body" indicators={ false } interval={10000}>
               {this.state.movies.map((movies, index) => {
                 return <Carousel.Item key={index}>
-                    <div >
+                    <div>
                       <img
                         className="Carousel-image"
                         src={ movies.image }
@@ -77,7 +79,7 @@ class MyCarousel extends Component {
                                 style={{ backgroundColor: movies.color,
                                          borderColor: movies.color }}
                                 >Buy Now</Button>
-                        <Button id="trailer" variant="outline-secondary">Watch Trailer</Button>
+                        <Button id="trailer" variant="outline" style={{ borderColor: "#cfcfcf" }}>Watch Trailer</Button>
                       </div>
                     </Carousel.Caption>
                   </div>

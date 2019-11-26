@@ -23,12 +23,12 @@
   width: 20px;
 }
 
-.carousel-control-prev-icon:hover, .carousel-control-prev-icon:hover {
-  fill: blue;
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover,
+.carousel-control-prev-icon:focus, .carousel-control-next-icon:focus {
+  fill: blue !important;
   width: 100px;
+  font-size: 24em;
 }
-
-
 
 .info {
   color: #f3efef;

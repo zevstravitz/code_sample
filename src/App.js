@@ -5,8 +5,6 @@ import MyCarousel from './components/MyCarousel.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
 class App extends Component {
   state = {
     panels: [
